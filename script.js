@@ -1,5 +1,5 @@
-const tickingAudio = new Audio("/audio/ticking.mp3");
-const explodingAudio = new Audio("/audio/explosion.mp3");
+const tickingAudio = new Audio("./audio/ticking.mp3");
+const explodingAudio = new Audio("./audio/explosion.mp3");
 const playButton = document.getElementById("button");
 
 tickingAudio.loop = true;
