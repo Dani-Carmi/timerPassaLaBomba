@@ -56,3 +56,62 @@ body{
     display: none;
     margin-right: 55px;
 }
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    #button {
+        padding: 15px 25px;
+        font-size: 24px;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    #bomb-image {
+        max-width: 50vw;
+        margin: 20px;
+    }
+
+    #blast-image {
+        max-width: 50vw;
+        margin: 20px auto;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #restart {
+        max-width: 50px;
+        margin: 10px auto;
+    }
+
+    .button-icon {
+        align-items: center;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    #button {
+        padding: 12px 20px;
+        font-size: 20px;
+        max-width: 250px;
+    }
+
+    #bomb-image {
+        max-width: 60vw;
+        margin-left: 40px;
+    }
+
+    #blast-image {
+        max-width: 60vw;
+        margin: 15px auto;
+    }
+
+    #restart {
+        max-width: 40px;
+    }
+}
